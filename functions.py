@@ -7,7 +7,7 @@ client = OpenAI()
 
 def img_creator(
     prompt,
-    size=256,
+    size,
 ):
     size = int(size)
 
